@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Repostería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="portfolio-page">
+    <div class="language-switch">
+        <button onclick="cambiarIdioma('es')" class="lang-btn active" id="btn-es">ES</button>
+        <button onclick="cambiarIdioma('en')" class="lang-btn" id="btn-en">EN</button>
+    </div>
+
+    <nav class="back-nav fade-in">
+        <a href="index.html" class="back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            <span data-es="Volver" data-en="Back">Volver</span>
+        </a>
+    </nav>
+
+    <div class="container portfolio-container">
+        <header class="portfolio-header hero-highlight">
+            <span class="profile-name" data-es="Liliana Toro" data-en="Liliana Toro">Liliana Toro</span>
+            <h1 class="portfolio-title" data-es="Pastelería Artesanal" data-en="Artisan Pastry">Pastelería Artesanal</h1>
+            <p class="portfolio-intro" data-es="Chef pastelera radicada en Pflugerville, Texas, dedicada a diseñar experiencias dulces personalizadas con ingredientes selectos y técnicas de alta repostería." data-en="Pastry chef based in Pflugerville, Texas, crafting bespoke sweet experiences with premium ingredients and haute pâtisserie techniques.">Chef pastelera radicada en Pflugerville, Texas, dedicada a diseñar experiencias dulces personalizadas con ingredientes selectos y técnicas de alta repostería.</p>
+        </header>
+
+        <section class="about-section slide-in-up">
+            <h2 data-es="Perfil" data-en="Profile">Perfil</h2>
+            <p data-es="Más de diez años creando postres a medida para bodas, eventos corporativos y celebraciones privadas. Combino sabores clásicos con presentaciones innovadoras, manteniendo controles rigurosos de seguridad alimentaria y logística para entregas puntuales." data-en="Over ten years designing custom desserts for weddings, corporate events and private celebrations. I blend classic flavors with innovative presentations while maintaining strict food safety and logistics controls for on-time deliveries.">Más de diez años creando postres a medida para bodas, eventos corporativos y celebraciones privadas. Combino sabores clásicos con presentaciones innovadoras, manteniendo controles rigurosos de seguridad alimentaria y logística para entregas puntuales.</p>
+        </section>
+
+        <section class="experience-section slide-in-up">
+            <h2 data-es="Experiencia Profesional" data-en="Professional Experience">Experiencia Profesional</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-date" data-es="Enero 2021 - Actualidad" data-en="January 2021 - Present">Enero 2021 - Actualidad</div>
+                    <div class="timeline-content">
+                        <h3 data-es="Chef Pastelera Ejecutiva · Atelier Dulce Pflugerville" data-en="Executive Pastry Chef · Atelier Dulce Pflugerville">Chef Pastelera Ejecutiva · Atelier Dulce Pflugerville</h3>
+                        <p data-es="Planifico y produzco colecciones de postres personalizados para eventos premium, coordinando proveedores locales y gestionando pedidos con hasta 300 comensales." data-en="Plan and produce bespoke dessert collections for premium events, coordinating local vendors and managing orders serving up to 300 guests.">Planifico y produzco colecciones de postres personalizados para eventos premium, coordinando proveedores locales y gestionando pedidos con hasta 300 comensales.</p>
+                        <ul>
+                            <li data-es="Desarrollo menús estacionales que equilibran ingredientes locales con técnicas francesas." data-en="Develop seasonal menus balancing local ingredients with French techniques.">Desarrollo menús estacionales que equilibran ingredientes locales con técnicas francesas.</li>
+                            <li data-es="Superviso controles de calidad, etiquetado y trazabilidad para cumplir requisitos sanitarios de Texas." data-en="Oversee quality checks, labeling and traceability to comply with Texas health requirements.">Superviso controles de calidad, etiquetado y trazabilidad para cumplir requisitos sanitarios de Texas.</li>
+                            <li data-es="Gestiono un equipo rotativo de reposteros y auxiliares en picos de producción." data-en="Lead a rotating team of pastry cooks and assistants during peak production windows.">Gestiono un equipo rotativo de reposteros y auxiliares en picos de producción.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-date" data-es="Agosto 2016 - Diciembre 2020" data-en="August 2016 - December 2020">Agosto 2016 - Diciembre 2020</div>
+                    <div class="timeline-content">
+                        <h3 data-es="Pastelera Senior · Boutique Pâtisserie Austin" data-en="Senior Pastry Chef · Boutique Pâtisserie Austin">Pastelera Senior · Boutique Pâtisserie Austin</h3>
+                        <p data-es="Diseñé vitrinas semanales de postres y lideré la línea de producción de tartas personalizadas, logrando un incremento del 35% en pedidos recurrentes." data-en="Designed weekly pastry displays and led the custom cake production line, achieving a 35% increase in repeat orders.">Diseñé vitrinas semanales de postres y lideré la línea de producción de tartas personalizadas, logrando un incremento del 35% en pedidos recurrentes.</p>
+                        <ul>
+                            <li data-es="Implementé fichas técnicas y control de mermas para optimizar costes de materia prima." data-en="Implemented recipe sheets and waste control to optimize raw material costs.">Implementé fichas técnicas y control de mermas para optimizar costes de materia prima.</li>
+                            <li data-es="Capacité a personal junior, reduciendo errores de decoración en un 50%." data-en="Coached junior staff, reducing decoration errors by 50%.">Capacité a personal junior, reduciendo errores de decoración en un 50%.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="skills-section slide-in-up">
+            <h2 data-es="Especialidades" data-en="Specialties">Especialidades</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3 data-es="Tartas de Autor" data-en="Signature Cakes">Tartas de Autor</h3>
+                    <p data-es="Diseños a medida con estructuras estables para eventos de larga duración." data-en="Custom designs with stable structures for long-format events.">Diseños a medida con estructuras estables para eventos de larga duración.</p>
+                </div>
+                <div class="skill-item">
+                    <h3 data-es="Repostería Francesa" data-en="French Pastry">Repostería Francesa</h3>
+                    <p data-es="Macarons, entremets, choux y postres clásicos reinterpretados." data-en="Macarons, entremets, choux and reimagined classics.">Macarons, entremets, choux y postres clásicos reinterpretados.</p>
+                </div>
+                <div class="skill-item">
+                    <h3 data-es="Chocolatería" data-en="Chocolate Work">Chocolatería</h3>
+                    <p data-es="Bombonería fina, esculturas moldeadas y pralinés personalizados." data-en="Fine bonbons, molded showpieces and custom pralines.">Bombonería fina, esculturas moldeadas y pralinés personalizados.</p>
+                </div>
+                <div class="skill-item">
+                    <h3 data-es="Gestión de Eventos" data-en="Event Planning">Gestión de Eventos</h3>
+                    <p data-es="Coordinación integral de entregas, montaje in situ y cronogramas de servicio." data-en="Full coordination of deliveries, on-site setup and service timelines.">Coordinación integral de entregas, montaje in situ y cronogramas de servicio.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <h2 data-es="Muestras Destacadas" data-en="Signature Pieces">Muestras Destacadas</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item zoom-in">
+                    <img src="images/postre1.jpg" alt="Muestra 1">
+                </figure>
+                <figure class="gallery-item zoom-in">
+                    <img src="images/postre2.jpg" alt="Muestra 2">
+                </figure>
+                <figure class="gallery-item zoom-in">
+                    <img src="images/postre3.jpg" alt="Muestra 3">
+                </figure>
+                <figure class="gallery-item zoom-in">
+                    <img src="images/postre4.jpg" alt="Muestra 4">
+                </figure>
+                <figure class="gallery-item zoom-in">
+                    <img src="images/postre5.jpg" alt="Muestra 5">
+                </figure>
+                <figure class="gallery-item zoom-in">
+                    <img src="images/postre6.jpg" alt="Muestra 6">
+                </figure>
+            </div>
+        </section>
+
+        <section class="languages-section slide-in-up">
+            <h2 data-es="Idiomas" data-en="Languages">Idiomas</h2>
+            <p data-es="Bilingüe español - inglés." data-en="Bilingual Spanish - English.">Bilingüe español - inglés.</p>
+        </section>
+
+        <section class="contact-section slide-in-up">
+            <h2 data-es="Contacto" data-en="Contact">Contacto</h2>
+            <p data-es="Cuéntame tu idea y diseñaremos un menú dulce a la medida de tu evento." data-en="Share your idea and we'll design a dessert menu tailored to your event.">Cuéntame tu idea y diseñaremos un menú dulce a la medida de tu evento.</p>
+            <div class="contact-info">
+                <a href="mailto:Toroliliana40@gmail.com" class="contact-link">Toroliliana40@gmail.com</a>
+                <a href="tel:+14805702232" class="contact-link">+1 480 570 2232</a>
+                <span class="contact-link" data-es="1225 Town Center Dr, Pflugerville, TX 78660, Estados Unidos" data-en="1225 Town Center Dr, Pflugerville, TX 78660, United States">1225 Town Center Dr, Pflugerville, TX 78660, Estados Unidos</span>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

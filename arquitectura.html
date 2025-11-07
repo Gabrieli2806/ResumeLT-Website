@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Arquitectura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="portfolio-page">
+    <div class="language-switch">
+        <button onclick="cambiarIdioma('es')" class="lang-btn active" id="btn-es">ES</button>
+        <button onclick="cambiarIdioma('en')" class="lang-btn" id="btn-en">EN</button>
+    </div>
+
+    <nav class="back-nav fade-in">
+        <a href="index.html" class="back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            <span data-es="Volver" data-en="Back">Volver</span>
+        </a>
+    </nav>
+
+    <div class="container portfolio-container">
+        <header class="portfolio-header hero-highlight">
+            <span class="profile-name" data-es="Liliana Toro" data-en="Liliana Toro">Liliana Toro</span>
+            <h1 class="portfolio-title" data-es="Construcción y Gestión de Proyectos" data-en="Construction & Project Management">Construcción y Gestión de Proyectos</h1>
+            <p class="portfolio-intro" data-es="Especialista en construcción con experiencia dirigiendo equipos multidisciplinares y garantizando que cada obra cumpla plazos, presupuesto y estándares de calidad en Estados Unidos." data-en="Construction specialist experienced in leading multidisciplinary teams and ensuring every project meets deadlines, budgets and quality standards across the United States.">Especialista en construcción con experiencia dirigiendo equipos multidisciplinares y garantizando que cada obra cumpla plazos, presupuesto y estándares de calidad en Estados Unidos.</p>
+        </header>
+
+        <section class="about-section slide-in-up">
+            <h2 data-es="Perfil" data-en="Profile">Perfil</h2>
+            <p data-es="Profesional bilingüe con sede en Austin (Texas) y más de cinco años coordinando operaciones para Wisenbaker. Lidero la planificación integral de obra, gestiono subcontratistas y aplico normativas OSHA para entregar proyectos seguros y listos para el cliente." data-en="Bilingual professional based in Austin, Texas with over five years coordinating operations for Wisenbaker. I lead end-to-end project planning, manage subcontractors and enforce OSHA standards to deliver safe, client-ready builds.">Profesional bilingüe con sede en Austin (Texas) y más de cinco años coordinando operaciones para Wisenbaker. Lidero la planificación integral de obra, gestiono subcontratistas y aplico normativas OSHA para entregar proyectos seguros y listos para el cliente.</p>
+        </section>
+
+        <section class="experience-section slide-in-up">
+            <h2 data-es="Experiencia Profesional" data-en="Professional Experience">Experiencia Profesional</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-date" data-es="Julio 2020 - Actualidad" data-en="July 2020 - Present">Julio 2020 - Actualidad</div>
+                    <div class="timeline-content">
+                        <h3 data-es="Labor Development Specialist in Construction · Wisenbaker" data-en="Labor Development Specialist in Construction · Wisenbaker">Labor Development Specialist in Construction · Wisenbaker</h3>
+                        <p data-es="Responsable de reclutar, formar y evaluar a más de 120 subcontratistas, velando por la adopción de estándares corporativos, especificaciones técnicas y normativas OSHA." data-en="Accountable for recruiting, training and evaluating over 120 subcontractors while enforcing corporate standards, technical specifications and OSHA regulations.">Responsable de reclutar, formar y evaluar a más de 120 subcontratistas, velando por la adopción de estándares corporativos, especificaciones técnicas y normativas OSHA.</p>
+                        <ul>
+                            <li data-es="Coordino auditorías periódicas de seguridad y calidad para garantizar entregas sin incidencias." data-en="Coordinate recurring safety and quality audits to ensure incident-free deliveries.">Coordino auditorías periódicas de seguridad y calidad para garantizar entregas sin incidencias.</li>
+                            <li data-es="Diseño itinerarios formativos personalizados para acelerar la curva de aprendizaje de cada equipo." data-en="Design tailored training roadmaps to accelerate each crew's learning curve.">Diseño itinerarios formativos personalizados para acelerar la curva de aprendizaje de cada equipo.</li>
+                            <li data-es="Presento reportes de avance, riesgos y resultados a la gerencia general para la toma de decisiones rápidas." data-en="Deliver progress, risk and results reports to general management to inform fast decision-making.">Presento reportes de avance, riesgos y resultados a la gerencia general para la toma de decisiones rápidas.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-date" data-es="Febrero 2020 - Julio 2021" data-en="February 2020 - July 2021">Febrero 2020 - Julio 2021</div>
+                    <div class="timeline-content">
+                        <h3 data-es="Area Manager · Wisenbaker" data-en="Area Manager · Wisenbaker">Area Manager · Wisenbaker</h3>
+                        <p data-es="Dirigí y coordiné múltiples proyectos residenciales en la zona de Austin, controlando tiempos, presupuesto y calidad. Ascendí a los cuatro meses por desempeño destacado." data-en="Led and coordinated multiple residential projects in the Austin area, controlling timelines, budgets and quality. Promoted within four months for outstanding performance.">Dirigí y coordiné múltiples proyectos residenciales en la zona de Austin, controlando tiempos, presupuesto y calidad. Ascendí a los cuatro meses por desempeño destacado.</p>
+                        <ul>
+                            <li data-es="Establecí planes de trabajo diarios con contratistas y clientes para asegurar hitos críticos." data-en="Established daily work plans with contractors and clients to secure critical milestones.">Establecí planes de trabajo diarios con contratistas y clientes para asegurar hitos críticos.</li>
+                            <li data-es="Supervisé la ejecución en campo y validé la entrega final conforme a los estándares de la compañía." data-en="Supervised field execution and validated final delivery against company standards.">Supervisé la ejecución en campo y validé la entrega final conforme a los estándares de la compañía.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="skills-section slide-in-up">
+            <h2 data-es="Habilidades" data-en="Skills">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3 data-es="Liderazgo y comunicación" data-en="Leadership & Communication">Liderazgo y comunicación</h3>
+                    <p data-es="Coordinación de equipos multidisciplinares y comunicación clara con gerencia y clientes." data-en="Coordinate multidisciplinary teams and maintain clear communication with management and clients.">Coordinación de equipos multidisciplinares y comunicación clara con gerencia y clientes.</p>
+                </div>
+                <div class="skill-item">
+                    <h3 data-es="Gestión de personal" data-en="Workforce Management">Gestión de personal</h3>
+                    <p data-es="Selección, evaluación y desarrollo de subcontratistas en entornos de alta demanda." data-en="Selection, evaluation and development of subcontractors in high-demand environments.">Selección, evaluación y desarrollo de subcontratistas en entornos de alta demanda.</p>
+                </div>
+                <div class="skill-item">
+                    <h3 data-es="Resolución de problemas" data-en="Problem Solving">Resolución de problemas</h3>
+                    <p data-es="Toma de decisiones rápidas frente a incidencias de obra y desviaciones presupuestarias." data-en="Rapid decision-making when facing site incidents and budget deviations.">Toma de decisiones rápidas frente a incidencias de obra y desviaciones presupuestarias.</p>
+                </div>
+                <div class="skill-item">
+                    <h3 data-es="Herramientas digitales" data-en="Digital Tools">Herramientas digitales</h3>
+                    <p data-es="Microsoft Excel, PowerPoint, reportes operativos y dashboards de control." data-en="Microsoft Excel, PowerPoint, operational reports and control dashboards.">Microsoft Excel, PowerPoint, reportes operativos y dashboards de control.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="languages-section slide-in-up">
+            <h2 data-es="Idiomas" data-en="Languages">Idiomas</h2>
+            <p data-es="Bilingüe español - inglés." data-en="Bilingual Spanish - English.">Bilingüe español - inglés.</p>
+        </section>
+
+        <section class="contact-section slide-in-up">
+            <h2 data-es="Contacto" data-en="Contact">Contacto</h2>
+            <p data-es="Disponible para colaborar en proyectos de construcción, formación y control de calidad." data-en="Available for collaboration on construction, training and quality control projects.">Disponible para colaborar en proyectos de construcción, formación y control de calidad.</p>
+            <div class="contact-info">
+                <a href="mailto:Toroliliana40@gmail.com" class="contact-link">Toroliliana40@gmail.com</a>
+                <a href="tel:+14805702232" class="contact-link">+1 480 570 2232</a>
+                <span class="contact-link" data-es="1225 Town Center Dr, Pflugerville, TX 78660, Estados Unidos" data-en="1225 Town Center Dr, Pflugerville, TX 78660, United States">1225 Town Center Dr, Pflugerville, TX 78660, Estados Unidos</span>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Selección de Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="language-switch">
+        <button onclick="cambiarIdioma('es')" class="lang-btn active" id="btn-es">ES</button>
+        <button onclick="cambiarIdioma('en')" class="lang-btn" id="btn-en">EN</button>
+    </div>
+
+    <div class="container">
+        <header class="fade-in">
+            <h1 class="main-title" data-es="Selecciona un Perfil" data-en="Select a Profile">Selecciona un Perfil</h1>
+            <p class="subtitle" data-es="Explora mi trabajo en diferentes áreas" data-en="Explore my work in different areas">Explora mi trabajo en diferentes áreas</p>
+        </header>
+
+        <div class="profiles-grid">
+            <div class="profile-card arquitectura slide-in-left">
+                <div class="card-inner">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                    </div>
+                    <h2 data-es="Construcción" data-en="Construction">Construcción</h2>
+                    <p class="card-description" data-es="Gestión integral de obra y equipos para Wisenbaker" data-en="End-to-end project and crew management for Wisenbaker">Gestión integral de obra y equipos para Wisenbaker</p>
+                    <a href="arquitectura.html" class="btn-profile" data-es="Ver Portfolio" data-en="View Portfolio">Ver Portfolio</a>
+                </div>
+            </div>
+
+            <div class="profile-card reposteria slide-in-right">
+                <div class="card-inner">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a3 3 0 00-3 3v1H7a2 2 0 00-2 2v2a2 2 0 002 2h10a2 2 0 002-2V8a2 2 0 00-2-2h-2V5a3 3 0 00-3-3z"/>
+                            <path d="M7 10v10a2 2 0 002 2h6a2 2 0 002-2V10"/>
+                        </svg>
+                    </div>
+                    <h2 data-es="Repostería" data-en="Pastry">Repostería</h2>
+                    <p class="card-description" data-es="Creaciones dulces con arte y pasión" data-en="Sweet creations with art and passion">Creaciones dulces con arte y pasión</p>
+                    <a href="reposteria.html" class="btn-profile" data-es="Ver Portfolio" data-en="View Portfolio">Ver Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
