@@ -22,26 +22,33 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background: linear-gradient(135deg, #6a11cb 30%, #00576c 60%);
+    background: linear-gradient(135deg, #6a11cb 30%, #002057 80%);
     min-height: 100vh;
     overflow-x: hidden;
+    position: relative;
 }
 
 .language-switch {
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
     z-index: 1000;
-    display: flex;
-    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    width: max-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    gap: 6px;
     background: var(--bg-white);
-    padding: 5px;
+    padding: 4px 6px;
     border-radius: 25px;
     box-shadow: var(--shadow);
 }
 
 .lang-btn {
-    padding: 8px 20px;
+    padding: 8px 14px;
     border: none;
     background: transparent;
     color: var(--text-dark);
@@ -62,7 +69,7 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
     padding: 40px 20px;
     min-height: 100vh;
     display: flex;
@@ -219,6 +226,41 @@ header {
 
 .portfolio-container {
     max-width: 1000px;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding-top: 20px;
+    }
+
+    .container {
+        padding: 110px 18px 50px;
+        margin-bottom: 40px;
+    }
+
+    .portfolio-page .portfolio-container {
+        padding-top: 90px;
+    }
+
+    .language-switch {
+        top: calc(env(safe-area-inset-top, 0px) + 18px);
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 3px 5px;
+        gap: 4px;
+        width: max-content;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    .lang-btn {
+        padding: 6px 16px;
+        font-size: 0.9rem;
+    }
+
+    header {
+        margin-top: 10px;
+    }
 }
 
 .portfolio-header {
