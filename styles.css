@@ -348,17 +348,45 @@ section h2::after {
     border-radius: 2px;
 }
 
-.about-section, .contact-section {
+.about-section, .contact-section, .profile-section, .education-section, .references-section {
     background: var(--bg-white);
     padding: 40px;
     border-radius: 20px;
     box-shadow: var(--shadow);
 }
 
-.about-section p, .contact-section p {
+.about-section p, .contact-section p, .profile-section p, .references-section p {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #555;
+}
+
+.info-list {
+    list-style: none;
+    display: grid;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.info-list li {
+    font-size: 1rem;
+    color: #555;
+}
+
+.info-list strong {
+    display: inline-block;
+    min-width: 190px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.info-list a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.info-list a:hover {
+    text-decoration: underline;
 }
 
 .skills-section {
@@ -366,6 +394,26 @@ section h2::after {
     padding: 40px;
     border-radius: 20px;
     box-shadow: var(--shadow);
+}
+
+.education-section {
+    display: grid;
+    gap: 25px;
+}
+
+.education-list {
+    display: grid;
+    gap: 18px;
+}
+
+.education-list h3 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.education-list p {
+    color: #7f8c8d;
+    margin-top: 6px;
 }
 
 .languages-section {
