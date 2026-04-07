@@ -12,15 +12,15 @@ Su función actual es servir como **sitio portfolio/CV** con dos perfiles:
 
 ## Estructura del sitio
 
-- `/home/runner/work/ResumeLT-Website/ResumeLT-Website/index.html`  
+- `index.html`  
   Página principal para seleccionar el perfil.
-- `/home/runner/work/ResumeLT-Website/ResumeLT-Website/arquitectura.html`  
+- `arquitectura.html`  
   CV/portfolio orientado a construcción.
-- `/home/runner/work/ResumeLT-Website/ResumeLT-Website/reposteria.html`  
+- `reposteria.html`  
   CV/portfolio orientado a repostería.
-- `/home/runner/work/ResumeLT-Website/ResumeLT-Website/styles.css`  
+- `styles.css`  
   Estilos globales, layout responsive y animaciones.
-- `/home/runner/work/ResumeLT-Website/ResumeLT-Website/script.js`  
+- `script.js`  
   Cambio de idioma, animaciones por scroll, efectos visuales y manejo básico de imágenes.
 
 ## Características principales
@@ -47,4 +47,4 @@ Solo abre `index.html` en un navegador.
 
 Las imágenes del sitio se encuentran en la carpeta:
 
-- `/home/runner/work/ResumeLT-Website/ResumeLT-Website/images`
+- `images/`
